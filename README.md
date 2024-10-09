@@ -7,12 +7,12 @@ produced/started. Utilize the ability of Map/Reduce paradigm to analyze the IMDB
 <h2>Query</h2>
 A Map/Reduce program to compute the number of highly rated movies with
 different genre combinations for pre-defined periods.
-i) 3 disjoint 10-year periods are being explored as a part of this project – [1991-2000], [2001-
+1) 3 disjoint 10-year periods are being explored as a part of this project – [1991-2000], [2001-
 2010], and [2011-2020].
-ii) Genre Combinations to be explored
-o Action, Thriller
-o Adventure, Drama
-o Comedy, Romance
+2) Genre Combinations to be explored
+  - Action, Thriller
+  - Adventure, Drama
+  - Comedy, Romance
 Note: For the genre combination like Comedy, Romance you
 need to consider the movies with a rating of at least 7.5 and which have at least these two
 genres present in their corresponding list of genres. For example, movies with
